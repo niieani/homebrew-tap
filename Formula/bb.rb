@@ -5,20 +5,20 @@
 class Bb < Formula
   desc "CLI to keep Git repositories consistent across machines."
   homepage "https://github.com/niieani/bb-project"
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/niieani/bb-project/releases/download/v0.2.0/bb_0.2.0_darwin_amd64.tar.gz"
-      sha256 "da556202de5e6f782bd8fd9b87fbe524c1e8676a639b0de8ed40441af2d2f03a"
+      url "https://github.com/niieani/bb-project/releases/download/v0.3.0/bb_0.3.0_darwin_amd64.tar.gz"
+      sha256 "2c678e63e903e253349804650564a3ff52ed55f7e3c67e3fc426a9aaa187dd9b"
 
       def install
         bin.install "bb"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/niieani/bb-project/releases/download/v0.2.0/bb_0.2.0_darwin_arm64.tar.gz"
-      sha256 "6cde098d6d5704d6624faa191d827f67e39b8a620cca7c6355a80819a396914b"
+      url "https://github.com/niieani/bb-project/releases/download/v0.3.0/bb_0.3.0_darwin_arm64.tar.gz"
+      sha256 "1d2e3a2d3f480906f63289a837aa47913aa517b642464786500f2887b3dc3d22"
 
       def install
         bin.install "bb"
@@ -28,15 +28,15 @@ class Bb < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/niieani/bb-project/releases/download/v0.2.0/bb_0.2.0_linux_amd64.tar.gz"
-      sha256 "ed6061f8873dc635c999595f981427bc87b47dbc70f3b2468d8dafd9d8f0c995"
+      url "https://github.com/niieani/bb-project/releases/download/v0.3.0/bb_0.3.0_linux_amd64.tar.gz"
+      sha256 "2b428fed20e2e6b378d64542a0d2163d146db7684a183767f6211188017f89bb"
       def install
         bin.install "bb"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/niieani/bb-project/releases/download/v0.2.0/bb_0.2.0_linux_arm64.tar.gz"
-      sha256 "97b8a6d43356051958d346fa103ac0d434e931f2044996b92b0692212748b3c0"
+      url "https://github.com/niieani/bb-project/releases/download/v0.3.0/bb_0.3.0_linux_arm64.tar.gz"
+      sha256 "7d500e01673dc7274e98d13c0a07e0141b95c586fdebb3d13691c45bcacd45f7"
       def install
         bin.install "bb"
       end
