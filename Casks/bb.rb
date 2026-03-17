@@ -3,7 +3,7 @@ cask "bb" do
   name "bb"
   desc "CLI to keep Git repositories consistent across machines."
   homepage "https://github.com/niieani/bb-project"
-  version "0.6.0"
+  version "0.6.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "bb" do
   on_macos do
     on_intel do
       url "https://github.com/niieani/bb-project/releases/download/v#{version}/bb_#{version}_darwin_amd64.tar.gz"
-      sha256 "8d746c267abdb588f3435e0a42ca6b1502f050cbe6913dd03b2b7772fe680045"
+      sha256 "97cfc85ec08b09d8412a401cd4ecb17824f124838e6a90fde29e60e3aec7b93f"
     end
     on_arm do
       url "https://github.com/niieani/bb-project/releases/download/v#{version}/bb_#{version}_darwin_arm64.tar.gz"
-      sha256 "d345842d8daea24e37058c358e7a97ae18ebbfe0b3bebc88490cf9dedd0924ea"
+      sha256 "e1c1d6471a164437c48b55a59f90701944f81b143f72da54f4a933811e80b526"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/niieani/bb-project/releases/download/v#{version}/bb_#{version}_linux_amd64.tar.gz"
-      sha256 "2f8465d01fe2e7df4c2fff07067c4d044c761cb05aa909c7e7d824ad63d87d1b"
+      sha256 "d72bc16208763b91e6b1b0f664d30b5ef9990d052323a5c0ebb6007986a03014"
     end
     on_arm do
       url "https://github.com/niieani/bb-project/releases/download/v#{version}/bb_#{version}_linux_arm64.tar.gz"
-      sha256 "79ac8e6ca6f93d527a44f0abc4225aa508e93897ddd761c0715b417e219e50d5"
+      sha256 "9bafb8297fc7be223fda5d81ce207f7b8dee1482e59248afdf4c34f33f95261a"
     end
   end
 
