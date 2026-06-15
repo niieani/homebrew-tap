@@ -3,7 +3,7 @@ cask "imagegen" do
   name "imagegen"
   desc "Codex-authenticated OpenAI image generation CLI"
   homepage "https://github.com/niieani/imagegen"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     url :url
@@ -15,22 +15,22 @@ cask "imagegen" do
   on_macos do
     on_intel do
       url "https://github.com/niieani/imagegen/releases/download/v#{version}/imagegen_#{version}_darwin_amd64.tar.gz"
-      sha256 "ec005a59447c8f3f2a1564eb25fee13f9c0e1bbaeba97c500220c594611c7228"
+      sha256 "1e324929769bea58ea7a635bb141172ce637264597233227240389001c5b4460"
     end
     on_arm do
       url "https://github.com/niieani/imagegen/releases/download/v#{version}/imagegen_#{version}_darwin_arm64.tar.gz"
-      sha256 "b81e0d1bf925a19c0115f65d4e1f3069976300ccb9cde8644b5657326e27e0df"
+      sha256 "0356f1285da05e3206f5ed91c42f2bcae45432a5fecf6663940628bb009b8f46"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/niieani/imagegen/releases/download/v#{version}/imagegen_#{version}_linux_amd64.tar.gz"
-      sha256 "9fb1914fdea072d758cd356f7bf1980737e2055615d31d5b4b1ba6d7d74cdf8a"
+      sha256 "280d2f469e8f7f421b817512e22d7e84dfdef73c2abc502f2a15354566c74c71"
     end
     on_arm do
       url "https://github.com/niieani/imagegen/releases/download/v#{version}/imagegen_#{version}_linux_arm64.tar.gz"
-      sha256 "6a7cf34f8d05d09c5359959c4b029ed7fda4672d35d752e6d20b0da671097a09"
+      sha256 "1edc1b389a01eaa1479dbf587852a9f5b82b8e86f7cd8e4b3cf9a6db035e2460"
     end
   end
 end
