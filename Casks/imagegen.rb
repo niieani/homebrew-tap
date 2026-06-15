@@ -15,22 +15,22 @@ cask "imagegen" do
   on_macos do
     on_intel do
       url "https://github.com/niieani/imagegen/releases/download/v#{version}/imagegen_#{version}_darwin_amd64.tar.gz"
-      sha256 :no_check
+      sha256 "ec005a59447c8f3f2a1564eb25fee13f9c0e1bbaeba97c500220c594611c7228"
     end
     on_arm do
       url "https://github.com/niieani/imagegen/releases/download/v#{version}/imagegen_#{version}_darwin_arm64.tar.gz"
-      sha256 :no_check
+      sha256 "b81e0d1bf925a19c0115f65d4e1f3069976300ccb9cde8644b5657326e27e0df"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/niieani/imagegen/releases/download/v#{version}/imagegen_#{version}_linux_amd64.tar.gz"
-      sha256 :no_check
+      sha256 "9fb1914fdea072d758cd356f7bf1980737e2055615d31d5b4b1ba6d7d74cdf8a"
     end
     on_arm do
       url "https://github.com/niieani/imagegen/releases/download/v#{version}/imagegen_#{version}_linux_arm64.tar.gz"
-      sha256 :no_check
+      sha256 "6a7cf34f8d05d09c5359959c4b029ed7fda4672d35d752e6d20b0da671097a09"
     end
   end
 end
