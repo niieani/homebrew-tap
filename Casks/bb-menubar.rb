@@ -1,6 +1,6 @@
 cask "bb-menubar" do
-  version "0.10.1"
-  sha256 "61affcad95c401438d309c2bb04e787f5280020bc0b0f37c929f28404115402e"
+  version "0.10.2"
+  sha256 "c33d4294334d36363fb37a9913e6fe7b8fda2f632b08d3edabcbcdaeff7a9f83"
 
   url "https://github.com/niieani/bb-project/releases/download/v#{version}/BBMenuBar_#{version}_macOS.zip"
   name "BB Menu Bar"
