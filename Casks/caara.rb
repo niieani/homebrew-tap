@@ -1,15 +1,15 @@
 cask "caara" do
-  version "1.2.0"
+  version "1.2.1"
 
   if OS.mac? && Hardware::CPU.arm?
-    sha256 "625b5caff9f9f09878fdd48f1ca558254f593b056644e17307109390830cf66d"
-    url "https://github.com/niieani/caara/releases/download/v1.2.0/caara_1.2.0_darwin_arm64.tar.gz"
+    sha256 "69523376624b1b01af9749abe527940a8727f08f562f25f5b99d4d18d8b2999c"
+    url "https://github.com/niieani/caara/releases/download/v1.2.1/caara_1.2.1_darwin_arm64.tar.gz"
   elsif OS.linux? && Hardware::CPU.intel?
-    sha256 "71c63e69f5f4d55810d981accf5a6d45d74b504051b8a4ff3e6b3a9594f5274d"
-    url "https://github.com/niieani/caara/releases/download/v1.2.0/caara_1.2.0_linux_amd64.tar.gz"
+    sha256 "791c243bec4394345f3beb4c7d31866635ccf797d756668755c1b974e0b66994"
+    url "https://github.com/niieani/caara/releases/download/v1.2.1/caara_1.2.1_linux_amd64.tar.gz"
   elsif OS.linux? && Hardware::CPU.arm?
-    sha256 "24ee613a1d55f5c48887ad667a4deb50c309e9b90c51762999734a223db581e2"
-    url "https://github.com/niieani/caara/releases/download/v1.2.0/caara_1.2.0_linux_arm64.tar.gz"
+    sha256 "7a52d8cf2d255b69b3262a4840afe5513e4dfc5d8c1d5fd58ba6eec845232e41"
+    url "https://github.com/niieani/caara/releases/download/v1.2.1/caara_1.2.1_linux_arm64.tar.gz"
   else
     odie "Caara release artifacts support Apple Silicon macOS, Linux x64, and Linux arm64."
   end
