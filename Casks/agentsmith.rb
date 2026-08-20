@@ -1,6 +1,6 @@
 cask "agentsmith" do
-  version "0.2.0"
-  sha256 "2ab2f3a3acc4efc625b600f185ac3e8e7ac3a90cfd0e2026ae0f51bdcb97f624"
+  version "0.3.0"
+  sha256 "735ee4c1838629530866f4ad2479afeb35f4852a793731e63d439ff38799f036"
 
   url "https://github.com/niieani/agentsmith/releases/download/v#{version}/agentsmith_#{version}_darwin_arm64.tar.gz"
   name "agentsmith"
